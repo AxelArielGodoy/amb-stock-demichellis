@@ -16,7 +16,7 @@ def crear_registro_stock():
     presentacion = input("Ingrese la presentación: ")
     cantu = int(input("Ingrese la cantidad unitaria: "))
     preciocosto = float(input("Ingrese el precio de costo: "))
-    precioventa = float(input("Ingrese el precio de venta: "))  # Nuevo campo
+    precioventa = float(input("Ingrese el precio de venta: "))
     cantstock = int(input("Ingrese la cantidad en stock: "))
     stockcritico = int(input("Ingrese el stock crítico: "))
 
@@ -59,7 +59,7 @@ def actualizar_registro_stock():
     presentacion = input("Ingrese la nueva presentación: ")
     cantu = int(input("Ingrese la nueva cantidad unitaria: "))
     preciocosto = float(input("Ingrese el nuevo precio de costo: "))
-    precioventa = float(input("Ingrese el nuevo precio de venta: "))  # Nuevo campo
+    precioventa = float(input("Ingrese el nuevo precio de venta: "))
     cantstock = int(input("Ingrese la nueva cantidad en stock: "))
     stockcritico = int(input("Ingrese el nuevo stock crítico: "))
 
